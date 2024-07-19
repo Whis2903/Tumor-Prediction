@@ -4,7 +4,7 @@ import numpy as np
 import tensorflow as tf
 
 # Loading the Trained Model
-model = tf.keras.models.load_model('BrainTumor_CNN')
+model = tf.keras.models.load_model('BrainTumor_CNN.h5')
 
 # Define a function to preprocess the image
 def preprocess_image(image):
